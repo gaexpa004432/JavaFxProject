@@ -42,14 +42,26 @@
         </items>
       </ToolBar>
    </top>
+   <bottom>
+      <BorderPane prefHeight="0.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <center>
+            <TextField BorderPane.alignment="CENTER" />
+         </center>
+         <right>
+            <Button mnemonicParsing="false" text="Button" BorderPane.alignment="CENTER" />
+         </right>
+      </BorderPane>
+   </bottom>
    <center>
-      <TextArea prefHeight="200.0" prefWidth="300.0" BorderPane.alignment="CENTER" />
+      <StackPane prefHeight="200.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextArea prefHeight="300.0" prefWidth="300.0" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@javafx.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </StackPane>
    </center>
-   <right>
-      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
-         <image>
-            <Image url="@../icons/new.png" />
-         </image>
-      </ImageView>
-   </right>
 </BorderPane>
