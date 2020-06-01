@@ -16,7 +16,6 @@ public class AppMain extends Application {
 //		Button button = new Button();
 //		button.setText("OK");
 //		hbox.getChildren().add(button);
-		int i;
 		
 		Scene scene = new Scene(hbox);
 		

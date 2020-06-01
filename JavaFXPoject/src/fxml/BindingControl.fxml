@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefHeight="350" prefWidth="350" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="fxml.BindingController">
+	<top>
+		<VBox prefHeight="170" prefWidth="350" spacing="10">
+			<children>
+				<Label text="textarea1">
+
+				</Label>
+				<TextArea  fx:id="textArea1" prefHeight="170">
+
+				</TextArea>
+				<Label text="textarea2">
+
+				</Label>
+				<TextArea  fx:id="textArea2">
+
+				</TextArea>
+			</children>
+		</VBox>
+	</top>
+	<center>
+		<Label fx:id = "label" text="JavaFX">
+			<font>
+				<Font size="10" />
+			</font>
+		</Label>
+	</center>
+	<bottom>
+		<Slider fx:id="slider">
+		</Slider>
+	</bottom>
+</BorderPane>
