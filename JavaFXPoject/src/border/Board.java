@@ -55,6 +55,23 @@ public class Board {//사용안함
 	public String getExitDate() {
 		return exitDate.get();
 	}
+	
+	
+	public SimpleStringProperty titleProperty() {
+		return this.title;
+	}
+	public SimpleStringProperty exitDateProperty() {
+		return this.exitDate;
+	}
+	public SimpleStringProperty contentProperty() {
+		return this.content;
+	}
+	public SimpleStringProperty publicityProperty() {
+		return this.publicity;
+	}
+	public SimpleStringProperty PasswordProperty() {
+		return this.Password;
+	}
 
 	
 
