@@ -41,7 +41,7 @@ public class InputController implements Initializable {
 	@FXML
 	ComboBox<String> comboPublic;
 	@FXML
-	Button btnReg, btnCancle;
+	Button btnReg, btnCancle ,chart;
 	@FXML
 	DatePicker dateExit;
 	Connection conn;
